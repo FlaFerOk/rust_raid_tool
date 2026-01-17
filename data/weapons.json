@@ -1,0 +1,89 @@
+{
+  "weapons": [
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "image": "rocket.webp",
+      "sulfur_cost": 1400,
+      "damage": {
+        "wooden_wall": 247,
+        "stone_wall": 137,
+        "metal_wall": 137,
+        "armored_wall": 137,
+        "wooden_door": 200,
+        "metal_door": 220,
+        "armored_door": 220,
+        "garage_door": 220,
+        "shop_front": 137
+      }
+    },
+    {
+      "id": "c4",
+      "name": "Timed Explosive Charge (C4)",
+      "image": "с4.webp",
+      "sulfur_cost": 2200,
+      "damage": {
+        "wooden_wall": 250,
+        "stone_wall": 275,
+        "metal_wall": 275,
+        "armored_wall": 275,
+        "wooden_door": 200,
+        "metal_door": 250,
+        "armored_door": 440,
+        "garage_door": 440,
+        "shop_front": 275
+      }
+    },
+    {
+      "id": "satchel",
+      "name": "Satchel Charge",
+      "image": "satchel.webp",
+      "sulfur_cost": 480,
+      "damage": {
+        "wooden_wall": 91,
+        "stone_wall": 51,
+        "metal_wall": 43,
+        "armored_wall": 43,
+        "wooden_door": 170,
+        "metal_door": 70,
+        "armored_door": 70,
+        "garage_door": 70,
+        "shop_front": 47
+      }
+    },
+    {
+      "id": "beancan",
+      "name": "Beancan Grenade",
+      "image": "beancan.webp",
+      "sulfur_cost": 120,
+      "damage": {
+        "wooden_wall": 19.23,
+        "stone_wall": 10.86,
+        "metal_wall": 8.92,
+        "armored_wall": 8.96,
+        "wooden_door": 25,
+        "metal_door": 13.8,
+        "armored_door": 14.49,
+        "garage_door": 14.28,
+        "shop_front": 8.9
+      }
+    },
+    {
+      "id": "explo_ammo",
+      "name": "Explosive Ammo",
+      "image": "explo_ammo.webp",
+      "sulfur_cost": 25,
+      "damage": {
+        "wooden_wall": 5.3,
+        "stone_wall": 2.74,
+        "metal_wall": 2.5,
+        "armored_wall": 2.5,
+        "wooden_door": 11.3,
+        "metal_door": 4,
+        "armored_door": 4,
+        "garage_door": 4,
+        "shop_front": 2.5
+      }
+    }
+  ]
+}
