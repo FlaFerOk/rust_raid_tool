@@ -7,7 +7,7 @@
         @click.stop
         @change="handleCheckboxChange"
       />
-      <img :src="`/images/${weapon.image}`" :alt="weapon.name" class="weapon-icon" />
+      <img :src="`images/${weapon.image}`" :alt="weapon.name" class="weapon-icon" />
     </div>
     <div class="weapon-card-body">
       <h3>{{ weapon.name }}</h3>

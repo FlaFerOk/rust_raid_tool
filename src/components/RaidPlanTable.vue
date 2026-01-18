@@ -14,7 +14,7 @@
         <tr v-for="item in items" :key="item.id">
           <td>
             <div class="target-cell">
-              <img :src="`/images/${item.target.image}`" :alt="item.target.name" class="target-icon-small" />
+              <img :src="`images/${item.target.image}`" :alt="item.target.name" class="target-icon-small" />
               <span>{{ item.target.name }}</span>
             </div>
           </td>

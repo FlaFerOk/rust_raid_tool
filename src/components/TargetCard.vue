@@ -8,7 +8,7 @@
         @click.stop
         @change="handleRadioChange"
       />
-      <img :src="`/images/${target.image}`" :alt="target.name" class="target-icon" />
+      <img :src="`images/${target.image}`" :alt="target.name" class="target-icon" />
     </div>
     <div class="target-card-body">
       <h3>{{ target.name }}</h3>
