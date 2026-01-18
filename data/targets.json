@@ -1,0 +1,58 @@
+{
+  "targets": [
+  {
+    "id": "wooden_wall",
+    "name": "Wooden wall",
+    "image": "wooden_wall.png",
+    "hp": 250
+  },
+  {
+    "id": "stone_wall",
+    "name": "Stone wall",
+    "image": "stone_wall.png",
+    "hp": 500
+  },
+  {
+    "id": "metal_wall",
+    "name": "Metal wall",
+    "image": "metal_wall.png",
+    "hp": 1000
+  },
+  {
+    "id": "armored_wall",
+    "name": "Armored wall",
+    "image": "armored_wall.png",
+    "hp": 2000
+  },
+  {
+    "id": "garage_door",
+    "name": "Garage door",
+    "image": "garage_door.webp",
+    "hp": 600
+  },
+  {
+    "id": "wooden_door",
+    "name": "Wooden door",
+    "image": "wooden_door.webp",
+    "hp": 200
+  },
+  {
+    "id": "metal_door",
+    "name": "Metal door",
+    "image": "metal_door.webp",
+    "hp": 250
+  },
+  {
+    "id": "armored_door",
+    "name": "Armored door",
+    "image": "armored_door.webp",
+    "hp": 1000
+  },
+  {
+    "id": "shop_front",
+    "name": "Shop Front",
+    "image": "shop_front.webp",
+    "hp": 750
+  }
+]
+}
