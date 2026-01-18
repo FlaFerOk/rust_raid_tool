@@ -1,5 +1,8 @@
 import { defineStore } from 'pinia';
 import type { Weapon, Target, RaidPlanItem, OptimalExplosive, WeaponsData, TargetsData } from '@/types';
+import weaponsData from '../../public/data/weapons.json';
+import targetsData from '../../public/data/targets.json';
+
 
 export const useRaidStore = defineStore('raid', {
     state: () => ({
@@ -50,25 +53,8 @@ export const useRaidStore = defineStore('raid', {
     },
 
     actions: {
-        async loadWeapons() {
-            try {
-                const response = await fetch('/data/weapons.json');
-                const data: WeaponsData = await response.json();
-                this.weapons = data.weapons;
-            } catch (error) {
-                console.error('Failed to load weapons:', error);
-            }
-        },
-
-        async loadTargets() {
-            try {
-                const response = await fetch('/data/targets.json');
-                const data: TargetsData = await response.json();
-                this.targets = data.targets;
-            } catch (error) {
-                console.error('Failed to load targets:', error);
-            }
-        },
+        loadWeapons() { this.weapons = weaponsData.weapons },
+        loadTargets() { this.targets = targetsData.targets },
 
         toggleWeapon(weaponId: string) {
             const index = this.selectedWeaponIds.indexOf(weaponId);
